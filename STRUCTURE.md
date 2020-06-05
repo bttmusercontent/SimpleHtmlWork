@@ -1,18 +1,18 @@
 # Project structure.
 ```
 SimpleHtlmWork
-├── config
+├── config/
 │   └── app.php
-├── docs
+├── docs/
 │   ├── config.md
 │   ├── errorpages.md
 │   ├── helpers.md
 │   ├── languages.md
 │   ├── routes.md
 │   └── view.md
-├── router
+├── router/
 │   └── routes.php
-├── SimpleHtmlWork
+├── SimpleHtmlWork/
 │   ├── classes/
 │   │   ├── ErrorHandler.php
 │   │   ├── Lang.php
@@ -25,7 +25,7 @@ SimpleHtlmWork
 │   │   ├── Asset.php
 │   │   └── Config.php
 │   └── autoload.php
-├── source
+├── source/
 │   ├── css/
 │   │   └── style.css
 │   ├── images/
@@ -41,8 +41,9 @@ SimpleHtlmWork
 │   │   ├── contact.php
 │   │   └── index.php
 ├── .htaccess
-├── composer.json
-├── index.php
 ├── LICENSE
-└── README.md
+├── README.md
+├── STRUCTURE.md
+├── composer.json
+└── index.php
 ```
