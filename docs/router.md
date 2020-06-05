@@ -31,7 +31,7 @@ $router->set('/information', function () {
 
 But we also need a view to display to the visitor. So we also need to create a view. 
 So we will go to `source/views/` and will create a view with the name **info**.
-Please be aware that the file needs to be a PHP file or else you cannot use the helpers!
+Please be aware that the file needs to be a PHP file or else you cannot use the helpers and the view will not work!
 So we will create a **info.php** file and we will set below code inside that file:
 
 ```php
