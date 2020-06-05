@@ -8,6 +8,8 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 
 # How to / installation.
 
+*If you need to see the project structure then please [click here.](https://github.com/Julianvschijndel/SimpleHtmlWork/blob/master/STRUCTURE.md)*
+
 **Installation**
 
 **Step 1.** Create a directory with the name of your project.<br>
