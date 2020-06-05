@@ -3,13 +3,33 @@ A tiny and simple framework build in PHP for websites who only use HTML.
 
 <img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> <img src="https://cdn.juliandev.nl/simplehtmlwork/version.svg" alt="Current version"> 
 
-# How to / installation.
-*Please see the [documentation](#)*
+## Adding or improving the code.
+If you have looked at the code, and you may have encountered a bug or seen certain things that could be improved to make the system work faster/better, please make a pull request, and I will review the code. If I will change my code with your suggested code I will put you inside the contributors section!
 
-# Contributors.
+# How to / installation.
+
+**Installation**
+
+**Step 1.** Create a directory with the name of your project.<br>
+**Step 2.** Download SimpleHtmlWork and place all the files inside your directory.<br>
+**Step 3.** Check out below documentations to check how to use SimpleHtmlWork. <br>
+**Step 4.** Create an awesome application/website!
+
+**How to**
+
+**1.** Check out [how to add a route](/docs/router.md) <br>
+**2.** Check out [how to add a view](/docs/view.md) <br>
+**3.** Check out [how to use the languages](/docs/languages.md) <br>
+**4.** Check out [how to use the helpers](/docs/helpers.md) <br>
+**5.** Check out [how to add custom configurations](/docs/config.md) <br>
+**6.** Check out [how to add custom error pages](/docs/errorpages.md)
+
+# Contributor(s).
 [Julian van Schijndel (JulianDev)](https://juliandev.nl) - Head developer and creator.<br>
 
 # Sponser me
+
+*By sponsoring me, you will show that you love my work. Also, I wil get more motivated to work on open projects and maintain them*
 
 GitHub: https://github.com/sponsors/Julianvschijndel <br>
 PayPal: https://www.paypal.me/juliandevnl <br>

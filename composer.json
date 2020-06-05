@@ -1,0 +1,30 @@
+{
+  "name": "juliandev/simplehtmlwork",
+  "description": "A tiny and simple framework build in PHP for websites who only use HTML.",
+  "version": "1.0.0",
+  "readme": "https://github.com/Julianvschijndel/SimpleHtmlWork/blob/master/README.md",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "7.3.16"
+  },
+  "repositories": [
+    { "type": "github", "url": "https://github.com/Julianvschijndel/SimpleHtmlWork" }
+  ],
+  "authors": [
+    {
+      "name": "Julian van schijndel",
+      "email": "info@juliandev.nl",
+      "homepage": "https://juliandev.nl",
+      "role": "Creator and Developer."
+    }
+  ],
+  "funding": [
+    { "type": "github", "url": "https://github.com/sponsors/Julianvschijndel" },
+    { "type": "paypal", "url": "https://www.paypal.me/juliandevnl" },
+    { "type": "other", "url": "https://www.buymeacoffee.com/JulianDev" },
+    { "type": "bitcoin", "token": "1HACXLLGQZQj2zB5NheztA1bdsdQZwHxmh" },
+    { "type": "ethereum", "token": "0x5EAc4d7a1B6AF4E4F7BA2f780beCe8811D5aC225" },
+    { "type": "bat", "token": "0x5EAc4d7a1B6AF4E4F7BA2f780beCe8811D5aC225" }
+  ]
+}
