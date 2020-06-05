@@ -47,7 +47,7 @@ $str = array(
 );
 ```
 
-Now that we have done that we can get the mail our application with the **Config helper**. For that please check [this](helpers.md) documentation.
+Now that we have done that we can get the mail value of our application with the **Config helper**. For that please check [this](helpers.md) documentation.
 
 ### **Way 2**
 
@@ -102,4 +102,4 @@ $str = array(
 );
 ```
 
-Now that we have done that we can get the mail keys our application with the **Config helper**. For that please check [this](helpers.md) documentation.
+Now that we have done that we can get the mail value of our application with the **Config helper**. For that please check [this](helpers.md) documentation.

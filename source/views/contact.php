@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= Sw::title(Config::get('name'), '&mdash;', Lang::text('welcomeTitle'))?></title>
+    <title><?= Sw::title(Config::get('name'), '&mdash;', Lang::text('contactTitle'))?></title>
 </head>
 <body>
-<a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/about">About me</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/contact">Contact me</a>
-<h1>Contact me</h1>
+<a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/about"><?= Lang::text('aboutMePage')?></a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/contact"><?= Lang::text('contactMePage')?></a>
+<h1><?= Lang::text('contactH1')?></h1>
+<p><?= Lang::text('contactText')?></p>
 </body>
 </html>

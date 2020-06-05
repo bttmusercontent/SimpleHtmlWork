@@ -25,6 +25,6 @@
  * Please check how in the /docs/config.md
 */
 define('APP_NAME', 'SimpleHtmlWork');
-define('APP_URL', 'http://simplehtmlwork.loc/');
-define('APP_CDN', 'https://cdn.juliandev.nl/');
+define('APP_URL', '[website-url-here]');
+define('APP_CDN', '[your-cdn-here]');
 define('APP_LANG', 'en');

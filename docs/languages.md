@@ -49,7 +49,7 @@ If you want to use own keys for language files you can simply add a line to the 
 $lang['key-here'] = "Text here";
 ```
 
-You can call your text with the following [helper](helpers.md) :
+You can call your text with the following [helper](helpers.md):
 ```php
 <?= Lang::text('key-here') ?>
 ```

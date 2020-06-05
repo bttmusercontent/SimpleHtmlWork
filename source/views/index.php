@@ -7,9 +7,9 @@
     <title><?= Sw::title(Config::get('name'), '&mdash;', Lang::text('welcomeTitle'))?></title>
 </head>
 <body>
-<a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/about">About me</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/contact">Contact me</a>
+<a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/about"><?= Lang::text('aboutMePage')?></a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="/contact"><?= Lang::text('contactMePage')?></a>
 <h1><?= Lang::text('welcome')?></h1>
 <p><?= Lang::text('welcomeText')?></p>
-<img src="<?= Asset::cdn('emojis/svg/1f973.svg') ?>" alt="">
+<img src="<?= Asset::file('images/heart.svg') ?>" alt="Love emoji">
 </body>
 </html>

@@ -13,7 +13,8 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 **Step 1.** Create a directory with the name of your project.<br>
 **Step 2.** Download SimpleHtmlWork and place all the files inside your directory.<br>
 **Step 3.** Check out below documentations to check how to use SimpleHtmlWork. <br>
-**Step 4.** Create an awesome application/website!
+**Step 4.** Open `config/app.php` and changes values to your own needs.<br>
+**Step 5.** Create an awesome application/website!
 
 **How to**
 
@@ -27,9 +28,9 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 # Contributor(s).
 [Julian van Schijndel (JulianDev)](https://juliandev.nl) - Head developer and creator.<br>
 
-# Sponser me
+# Sponsor me
 
-*By sponsoring me, you will show that you love my work. Also, I wil get more motivated to work on open projects and maintain them*
+*By sponsoring me, you will show that you love my work. Also, I wil get more motivated to work on open projects and maintain them.*
 
 GitHub: https://github.com/sponsors/Julianvschijndel <br>
 PayPal: https://www.paypal.me/juliandevnl <br>

@@ -15,13 +15,36 @@
  *
 */
 
-$lang[] = "";
-$lang[] = "";
-$lang[] = "";
-$lang[] = "";
-$lang[] = "";
-$lang[] = "";
-$lang[] = "";
+// Error page 404.
+$lang['404Title'] = "404 pagina niet gevonden.";
+$lang['404H1'] = "Oeps! Pagina kon niet gevonden worden.";
+$lang['404Text'] = "Sorry maar de pagina die je zoekt bestaat niet, is verwijderd. naam gewijzigd of is tijdelijk niet beschikbaar";
+$lang['404Button'] = "Ga naar de homepagina.";
+
+// Error page lang.
+$lang['LangTitle'] = "Taal bestand kan niet gevonden worden.";
+$lang['LangH1'] = "Oeps! Taal bestand bestaat niet.";
+$lang['LangText'] = "Het spijt ons, maar het taalbestand <b>".APP_LANG."</b> bestaat niet.";
+$lang['LangButton'] = "Ga naar de homepagina.";
+
+// Menu
+$lang['aboutMePage'] = "Over mij";
+$lang['contactMePage'] = "Contacteer mij";
+
+// Home
+$lang['welcomeTitle'] = "Welkom op ".APP_NAME."!";
+$lang['welcome'] = "Welkom op ".APP_NAME."!";
+$lang['welcomeText'] = "Dankjewel voor het gebruiken van <b>".APP_NAME."</b>!";
+
+// About me
+$lang['aboutTitle'] = "Over mij";
+$lang['aboutH1'] = "Over mij";
+$lang['aboutText'] = "Welkom op de over mij pagina.";
+
+// Contact me
+$lang['contactTitle'] = "Contacteer mij";
+$lang['contactH1'] = "Contacteer mij";
+$lang['contactText'] = "Welkom op de contacteer mij pagina.";
 
 /*
  * Do not delete this!
