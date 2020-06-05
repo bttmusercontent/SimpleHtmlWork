@@ -8,7 +8,7 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 
 # How to / installation.
 
-*If you need to see the project structure then please [click here.](https://github.com/Julianvschijndel/SimpleHtmlWork/blob/master/STRUCTURE.md)*
+*If you need to see the project structure then please [click here.](STRUCTURE.md)*
 
 **Installation**
 
