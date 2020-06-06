@@ -48,3 +48,6 @@ $router->set('/information', function () {
 
 Now you successfully created a route.
 
+*If you want that every request of the website will return to the index of you're website.* Then go to **SimpleHtmlWork/classes/Router.php** and change the line with the code: 
+
+`ErrorHandler::httpNotFound();` to `$this->routes['/']();` 
