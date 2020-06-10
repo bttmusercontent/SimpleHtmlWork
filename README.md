@@ -32,6 +32,7 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 
 # Contributor(s).
 [Julian van Schijndel (JulianDev)](https://juliandev.nl) - Head developer and creator.<br>
+[devmitchel](https://github.com/devmitchel) - For reporting a big bug. [See the bug](https://github.com/Julianvschijndel/SimpleHtmlWork/commit/c9ce19152a11dee5aee848ae44dfe0fe61e56005)<br>
 
 # Sponsor me
 
