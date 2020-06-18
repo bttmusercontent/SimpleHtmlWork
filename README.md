@@ -3,9 +3,6 @@ A tiny and simple framework build in PHP for websites who only use HTML.
 
 <img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> <img src="https://cdn.juliandev.nl/simplehtmlwork/version.svg" alt="Current version"> 
 
-## SimpleWork
-SimpleWork is basically the same framework as this but is complete for PHP also with an MVC (model, view, controller). Only it is still under development. Join the [Discord server](https://discord.gg/36ssAnV) to follow the development!
-
 ## Adding or improving the code.
 If you have looked at the code, and you may have encountered a bug or seen certain things that could be improved to make the system work faster/better, please make a pull request, and I will review the code. If I will change my code with your suggested code I will put you inside the contributors section!
 
