@@ -16,11 +16,11 @@
 
 class Lang
 {
-    /*
-     * With this function you can get a text from the language file that is set
-     * in config/app.php in the "APP_LANG". So for example if you set the APP_LANG
-     * to "nl" it will get the file "nl.php" from source/lang/ and will
-     * get the text you have. Please check for more examples in the /docs/languages.md
+    /**
+     * text
+     *
+     * @param string $text
+     * @return string
     */
     public static function text($text) {
         if(file_exists('source/lang/'.APP_LANG.'.php')) {

@@ -1,7 +1,10 @@
 # SimpleHtmlWork
-A tiny and simple framework build in PHP for websites who only use HTML.
+A tiny and simple framework build in PHP for websites who only use HTML. Or for people who just want a small website in PHP but do not want to use a big framework.
 
 <img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> <img src="https://cdn.juliandev.nl/simplehtmlwork/version.svg" alt="Current version"> 
+<br><br>
+
+Running an older version? Then check the changelog: [view changelog](changelog.md) 
 
 ## Adding or improving the code.
 If you have looked at the code, and you may have encountered a bug or seen certain things that could be improved to make the system work faster/better, please make a pull request, and I will review the code. If I will change my code with your suggested code I will put you inside the contributors section!
@@ -16,7 +19,8 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 **Step 2.** Download SimpleHtmlWork and place all the files inside your directory.<br>
 **Step 3.** Check out below documentations to check how to use SimpleHtmlWork. <br>
 **Step 4.** Open `config/app.php` and changes values to your own needs.<br>
-**Step 5.** Create an awesome application/website!
+**Step 5.** Create an awesome application/website! <br>
+**Step 6.** Run `composer install` in project folder.
 
 **How to**
 
@@ -25,7 +29,8 @@ If you have looked at the code, and you may have encountered a bug or seen certa
 **3.** Check out [how to use the languages](/docs/languages.md) <br>
 **4.** Check out [how to use the helpers](/docs/helpers.md) <br>
 **5.** Check out [how to add custom configurations](/docs/config.md) <br>
-**6.** Check out [how to add custom error pages](/docs/errorpages.md)
+**6.** Check out [how to add custom error pages](/docs/errorpages.md) <br>
+**6.** Check out [how to create connection with database](/docs/database.md)
 
 # Contributor(s).
 [Julian van Schijndel (JulianDev)](https://juliandev.nl) - Head developer and creator.<br>

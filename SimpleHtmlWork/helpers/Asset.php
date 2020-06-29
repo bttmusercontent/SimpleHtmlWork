@@ -16,23 +16,22 @@
 
 class Asset
 {
-    /*
-     * This function will get a file from the source directory
-     * so for example you want to get your "app.css" file that
-     * is located in source/css then you can do that with
-     * Asset::file('css/app.css').
-     * Please check for more examples in the /docs/helpers.md
+    /**
+     * file
+     *
+     * @param string $file
+     * @return string
     */
     public static function file($file) {
         return '../../source/'.$file.'';
     }
 
-    /*
-     * This function will get a file from your cdn. So for example you want to get your "logo.png" file that
-     * is located in https://cdn.domain.com/assets/logo.png then you can do that with Asset::cdn('assets/logo.png').
-     * This function requires APP_CDN to be have a value inside the config/app.php or else it will not work.
-     * Please check for more examples in the /docs/helpers.md
-    */
+    /**
+     * cdn
+     *
+     * @param string $file
+     * @return string
+     */
     public static function cdn($file) {
         return APP_CDN.$file;
     }

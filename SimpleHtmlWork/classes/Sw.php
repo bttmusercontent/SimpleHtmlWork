@@ -16,11 +16,12 @@
 
 class Sw
 {
-    /*
-     * This function will return the view name a person has inserted.
-     * So for example: Sw::view('index');
-     * Please check for more examples in the /docs/view.md
-    */
+    /**
+     * View
+     *
+     * @param string $viewName
+     * @return void
+     */
     public static function View($viewName) {
         if(file_exists('source/views/'.$viewName.'.php')) {
             require_once 'source/views/'.$viewName.'.php';
@@ -29,11 +30,27 @@ class Sw
         }
     }
 
-    /*
-     * This function will create a title. You can set a name for the website, you can set a
-     * separator like -- and the title of the website. You can call it like:
-     * Sw::title('SimpleHtmlWork', '--', 'Welcome!');
-     * Please check for more examples in the /docs/helpers.md
+    /**
+     * include
+     *
+     * @param $file
+     * @return void
+     */
+    public static function include($file){
+        if(file_exists('source/includes/'.$file.'.php')) {
+            require_once 'source/includes/'.$file.'.php';
+        } else {
+            ErrorHandler::httpNotFound();
+        }
+    }
+
+    /**
+     * Title
+     *
+     * @param string $appName
+     * @param string $separator
+     * @param string $title
+     * @return string
     */
     public static function title($appName, $separator, $title){
         return $appName.' '.$separator.' '.$title;

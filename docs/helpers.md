@@ -13,6 +13,7 @@ List of the helpers:
 * Sw
     * View
     * title
+    * include
 * Lang
     * text
     
@@ -96,6 +97,24 @@ If you're using multiple languages in your application you can also use the **La
 
 ```php
 <title><?= Sw::title(Config::get('name'), '-', Lang::text('about_me_title'))?></title>
+```
+
+**Sw (include)**:
+
+If you need a code on several pages, it would be easier if you can include them. Well we did it. Now you can do this.
+
+The only thing you need to do is create a .php file inside `source/includes` and call the file with our helper in the file you need it. For example:
+
+```php
+<html>
+    <head>
+        <?= Sw::include('meta-tags'); ?>
+    </head>
+<body>
+    <?= Sw::include('navigation'); ?>
+</body>
+<?= Sw::include('scripts');?>
+</html>
 ```
 
 ### **Lang helper**

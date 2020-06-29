@@ -16,10 +16,11 @@
 
 class Config
 {
-    /*
-     * With this function you can set values from the config file.
-     * If you want to add custom config values:
-     * Please check for more examples in the /docs/config.md
+    /**
+     * callback
+     *
+     * @param string $replace
+     * @return string
     */
     private static function callback($replace) {
 
@@ -37,11 +38,12 @@ class Config
         return $replace;
     }
 
-    /*
-     * With this function you can get a value of a config variable.
-     * So for example you want to display the application name somewhere
-     * inside your website you can simple do: Config::get('name')
-    */
+    /**
+     * get
+     *
+     * @param $value
+     * @return string
+     */
     public static function get($value) {
         return self::callback($value);
     }
