@@ -1,7 +1,9 @@
 # SimpleHtmlWork
 A tiny and simple framework build in PHP for websites who only use HTML. Or for people who just want a small website in PHP but do not want to use a big framework.
 
-<img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> <img src="https://cdn.juliandev.nl/simplehtmlwork/version.svg" alt="Current version"> 
+**Current version:** v1.1
+
+<img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> 
 <br>
 
 Running an older version? Then check the changelog: [view changelog](changelog.md) 
