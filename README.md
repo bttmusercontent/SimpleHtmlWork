@@ -3,9 +3,6 @@ A tiny and simple framework build in PHP for websites who only use HTML. Or for 
 
 **Current version:** v1.1
 
-<img src="https://cdn.juliandev.nl/simplehtmlwork/build.svg" alt="Build"> <img src="https://cdn.juliandev.nl/simplehtmlwork/license.svg" alt="License"> 
-<br>
-
 Running an older version? Then check the changelog: [view changelog](changelog.md) 
 
 ## Adding or improving the code.
